@@ -41,6 +41,11 @@ properties:
       immune to paired-pages corruptions
     type: boolean
 
+  scpart-id:
+    description: Partition id in Sercomm partition map (for using with
+      sercomm,sc-partitions compatible only)
+    $ref: /schemas/types.yaml#/definitions/uint32
+
 required:
   - reg
 
